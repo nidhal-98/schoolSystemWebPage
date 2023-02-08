@@ -1,0 +1,62 @@
+.addStudentBody{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.listStudentBody{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.newStudentForm {
+    margin-left: 20px;
+    border-style:dotted;
+    border-color: #B8AF9E;
+    width: 275px;
+    margin: 30px auto;
+}
+
+.h2{
+    text-align: center;
+    font-weight:bolder; 
+    color: #DF01A4; 
+    font-size: 30px;
+}
+
+label{
+    color: #B8AF9E;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    margin: 2px;
+}
+
+.submit{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 2px;
+}
+
+.back{
+    font-size: 15px;
+    background-color:lightcyan;
+    padding: 1%;
+    width: 50px;
+    height: 30px;
+}
+.homeBody{
+    background-color: gainsboro;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
