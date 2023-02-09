@@ -41,7 +41,7 @@
                     <a class="nav-link" href="home.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="NewStudent.html">Registe New Student</a>
+                    <a class="nav-link" href="registeStudent.html">Registe New Student</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="showStudent.html">Show All Students</a>
@@ -60,32 +60,36 @@
           <h2 class="h2">List of student</h2>
           <table>
             <tr>
-              <th>School Name</th>
               <th>Student Name</th>
-              <th>ID</th>
+              <th>Age</th>
               <th>Email</th>
-              <th>Subject Name</th>
+              <th>Phone Number</th>
+              <th>Subject1 Name</th>
+              <th>Subject2 Name</th>
             </tr>
             <tr>
-              <td><span id="school-Name"></span></td>
-              <td><span id="student-Name"></span></td>
-              <td><span id="Id-Name"></span></td>
+              <td><span id="Name"></span></td>
+              <td><span id="age-Name"></span></td>
               <td><span id="email-Name"></span></td>
-              <td><span id="subject-Name"></span></td>
+              <td><span id="phone-Name"></span></td>
+              <td><span id="subject1-Name"></span></td>
+              <td><span id="subject2-Name"></span></td>
             </tr>
           </table>
           <script>
-            const schoolName = localStorage.getItem('school-Name')
-            const studentName = localStorage.getItem('student-Name')
-            const ID = localStorage.getItem('Id-Name')
+            const Name = localStorage.getItem('Name')
+            const age = localStorage.getItem('age-Name')
             const email = localStorage.getItem('email-Name')
-            const subjectName = localStorage.getItem('subject-Name')
+            const phone = localStorage.getItem('phone-Name')
+            const subject1 = localStorage.getItem('subject1-Name')
+            const subject2 = localStorage.getItem('subject2-Name')
 
-            document.getElementById('school-Name').textContent = schoolName;
-            document.getElementById('student-Name').textContent = studentName;
-            document.getElementById('Id-Name').textContent = ID;
+            document.getElementById('Name').textContent = Name;
+            document.getElementById('age-Name').textContent = age;
             document.getElementById('email-Name').textContent = email;
-            document.getElementById('subject-Name').textContent = subjectName;
+            document.getElementById('phone-Name').textContent = phone;
+            document.getElementById('subject1-Name').textContent = subject1;
+            document.getElementById('subject2-Name').textContent = subject2;
           </script>
     </body>
     </center>

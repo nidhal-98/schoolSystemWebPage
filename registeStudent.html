@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Register Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nidhal School</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registeStudent.html">Registe New Student</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="showStudent.html">Show All Students</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="administration.html">Administration</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <div class="container">
+        <div class="contact__wrapper shadow-lg mt-n9">
+            <div class="row no-gutters">
+                <div class="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
+                    <h3 class="color--white mb-5">Get in Touch</h3>
+                    <ul class="contact-info__list list-style--none position-relative z-index-101">
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-envelope"></i></span> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a7d4d2d7d7c8d5d3e7c5c8c8d3c3c2de89c4c8ca">[email&#160;protected]</a>
+                        </li>
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-phone"></i></span> (968)-99999999
+                        </li>
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span> Nidhal School .
+                            <br> 2694 Queen City Rainbow Drive
+                            <br> Muscat 99161
+                            <div class="mt-3">
+                                <a href="https://www.google.com/maps" target="_blank" class="text-link link--right-icon text-white">Get directions <i class="link__icon fa fa-directions"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <figure class="figure position-absolute m-0 opacity-06 z-index-100" style="bottom:0; right: 10px">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444px" height="626px">
+                            <defs>
+                                <linearGradient id="PSgrad_1" x1="0%" x2="81.915%" y1="57.358%" y2="0%">
+                                    <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"></stop>
+                                    <stop offset="100%" stop-color="rgb(0,54,207)" stop-opacity="0"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path fill-rule="evenodd" opacity="0.302" fill="rgb(72, 155, 248)" d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"></path>
+                            <path fill="url(#PSgrad_1)" d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"></path>
+                        </svg>
+                    </figure>
+                </div>
+                <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
+                    <form action="#" class="contact-form form-validate" novalidate="novalidate" id="form">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="Name"> Name </label>
+                                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter Full Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="age">Age</label>
+                                <input type="text" class="form-control" id="age" name="age" placeholder="Enter your age by years">
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="mail@seed.com">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="(968)-454-545-45">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="subject1">First Subject</label>
+                                    <input type="text" class="form-control" id="subject1" name="subject1" placeholder="Math, Bio, etc">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="subject2">Second Subject</label>
+                                    <input type="text" class="form-control" id="subject2" name="subject2" placeholder="Math, Bio, etc">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    <script>
+                        const form = document.getElementById('form');
+                        const Name = document.getElementById('Name');
+                        const age = document.getElementById('age');
+                        const email = document.getElementById('email');
+                        const phone = document.getElementById('phone');
+                        const subject1 = document.getElementById('subject1');
+                        const subject2 = document.getElementById('subject2');
+
+                        form.addEventListener('submit', function(e){
+                            e.preventDefault();
+          
+                            const NameValue = Name.value;
+                            const ageValue = age.value;
+                            const emailValue = email.value;
+                            const phoneValue = phone.value;
+                            const subject1Value = subject1.value;
+                            const subject2Value = subject2.value;
+
+                            localStorage.setItem('Name', NameValue);
+                            localStorage.setItem('age-Name', ageValue);
+                            localStorage.setItem('email-Name', emailValue);
+                            localStorage.setItem('phone-Name', phoneValue);
+                            localStorage.setItem('subject1-Name', subject1Value);
+                            localStorage.setItem('subject2-Name', subject2Value);
+
+                            window.location.href = "showStudent.html"
+                        })
+
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <style type="text/css">
+    body{
+        margin-top:20px;
+        background:#eee;
+    }
+    .gradient-brand-color {
+        background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+        background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+        color: #fff;
+    }
+    .contact-info__wrapper {
+        overflow: hidden;
+        border-radius: .625rem .625rem 0 0
+    }
+
+    @media (min-width: 1024px) {
+        .contact-info__wrapper {
+            border-radius: 0 .625rem .625rem 0;
+            padding: 5rem !important
+        }
+    }
+    .contact-info__list span.position-absolute {
+        left: 0
+    }
+    .z-index-101 {
+        z-index: 101;
+    }
+    .list-style--none {
+        list-style: none;
+    }
+    .contact__wrapper {
+        background-color: #fff;
+        border-radius: 0 0 .625rem .625rem
+    }
+
+    @media (min-width: 1024px) {
+        .contact__wrapper {
+            border-radius: .625rem 0 .625rem .625rem
+        }
+    }
+    @media (min-width: 1024px) {
+        .contact-form__wrapper {
+            padding: 5rem !important
+        }
+    }
+    .shadow-lg, .shadow-lg--on-hover:hover {
+        box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+    }
+    </style>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript"></script>
+
+</body>
+</html>
