@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="Stylesheet" href="newStudentStyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-image: url(background.png);
+            background-size: cover;
+            
+        }
+
+        button {
+            background-color: #d2db0a;
+            color: #000000;
+            font-family: Trebuchet MS;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: italic;
+            text-decoration: none;
+            padding: 14px 15px;
+            border: 0px solid #000;
+            border-radius: 10px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button span {
+            margin-right: 15px;
+            display: block;
+            width: 29px;
+            height: 29px;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiPg0KICA8ZGVmcz4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+DQogICAgICA8cmVjdCB4PSItNCIgeT0iLTI1IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgZmlsbD0ibm9uZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgtMiI+DQogICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzEiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDEiIHdpZHRoPSIxNDIiIGhlaWdodD0iMTAwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4zMzMgOS4xMjgpIiBmaWxsPSJub25lIi8+DQogICAgPC9jbGlwUGF0aD4NCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjAuOTg2IiB5MT0iMC41MDciIHgyPSItMC4wMjgiIHkyPSIwLjUyMiIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTMxIiBzdG9wLWNvbG9yPSIjZDlkOWQ5Ii8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9ImdyYXkiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIHgxPSIwLjk4NiIgeTE9IjAuNDkzIiB4Mj0iLTAuMDI4IiB5Mj0iMC40NzgiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU2Nyb2xsX0dyb3VwXzEiIGRhdGEtbmFtZT0iU2Nyb2xsIEdyb3VwIDEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgMjUpIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoKSIgc3R5bGU9Imlzb2xhdGlvbjogaXNvbGF0ZSI+DQogICAgPGcgaWQ9ImxvZ28tdyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwLjMzMyAtOS4xMjgpIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoLTIpIj4NCiAgICAgIDxnIGlkPSJHcm91cF80MCIgZGF0YS1uYW1lPSJHcm91cCA0MCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC45NDEgNC40ODkpIj4NCiAgICAgICAgPGcgaWQ9Ikdyb3VwXzM4IiBkYXRhLW5hbWU9Ikdyb3VwIDM4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDAxKSI+DQogICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZV82MyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjMiIHdpZHRoPSI3NS44ODciIGhlaWdodD0iMjUuMjk2IiByeD0iMTIuNjQ4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOC4wMzMgMzcuMjI1KSByb3RhdGUoNDUpIiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4NCiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY0IiBkYXRhLW5hbWU9IlJlY3RhbmdsZSA2NCIgd2lkdGg9Ijc1Ljg4NyIgaGVpZ2h0PSIyNS4yOTYiIHJ4PSIxMi42NDgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNTMuNjYpIHJvdGF0ZSgtNDUpIiBmaWxsPSIjZmZmIi8+DQogICAgICAgICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xIiBkYXRhLW5hbWU9IkVsbGlwc2UgMSIgY3g9IjcuODQyIiBjeT0iNy44NDIiIHI9IjcuODQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS4xMyA0NS4wODEpIiBmaWxsPSIjZDlkYmZmIi8+DQogICAgICAgIDwvZz4NCiAgICAgICAgPGcgaWQ9Ikdyb3VwXzM5IiBkYXRhLW5hbWU9Ikdyb3VwIDM5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MC4wNzkgMCkiPg0KICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjMtMiIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjMiIHdpZHRoPSI3NS44ODciIGhlaWdodD0iMjUuMjk2IiByeD0iMTIuNjQ4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MS41NDcgNTUuMTEyKSByb3RhdGUoMTM1KSIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQtMikiLz4NCiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY0LTIiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDY0IiB3aWR0aD0iNzUuODg3IiBoZWlnaHQ9IjI1LjI5NiIgcng9IjEyLjY0OCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTMuODA3IDcxLjU0Nykgcm90YXRlKC0xMzUpIiBmaWxsPSIjZmZmIi8+DQogICAgICAgICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xLTIiIGRhdGEtbmFtZT0iRWxsaXBzZSAxIiBjeD0iNy44NDIiIGN5PSI3Ljg0MiIgcj0iNy44NDIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ0Ljg4IDQ1LjA4MikiIGZpbGw9IiNkOWRiZmYiLz4NCiAgICAgICAgPC9nPg0KICAgICAgPC9nPg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+DQo=);
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: rotate(0deg);
+        }
+
+        button:hover {
+            background-color:rgb(120, 38, 38);
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nidhal School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registeStudent.html">Registe New Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="showStudent.html">Show All Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="api.html">API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="administration.html">Administration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <center>
+        <br>
+        <h1 style="    text-align: center; font-weight:bolder; color: rgb(120, 38, 38); font-size: 70px;">
+            Welocme to Nidhal School
+        </h1>
+        <br>
+        <br>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            style="width: 800px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Premium-Photo-_-Modern-classroom-interior-in-light-tones.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="That_s-right_-I-Love-You愛する_.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Oodi-Helsinki-Central-Library-_-ALA-Architects.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div style="padding-top: 5px;">
+            <button type="button" onclick="document.getElementById('summary').style.display='block'">
+                Read More </button>
+        </div>
+        <div id="summary" style="display: none; background-color: silver; opacity: 0.8; font-size: 18px; font-weight: bold;">
+            <p> School is a place where students go to learn and grow both academically and personally. </p>
+            <p> Teachers and staff play an important role in guiding students and fostering a love for learning.</p>
+            <p>A strong curriculum is essential for providing students with the skills and knowledge they need to succeed.
+            </p>
+            <p> A positive school culture and supportive learning environment are important for student well-being and
+                success.</p>
+            <p>Through their experiences in school, students gain the confidence and skills necessary to pursue their goals
+                and contribute to their communities.</p>
+        </div>
+    </center>
+</body>
+
+</html>

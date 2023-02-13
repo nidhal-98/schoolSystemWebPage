@@ -5,7 +5,7 @@
 }
 
 .listStudentBody{
-    background-image: url(background.jpg);
+    background-image: url(Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@
 .h2{
     text-align: center;
     font-weight:bolder; 
-    color: #DF01A4; 
+    color: rgb(120, 38, 38); 
     font-size: 30px;
 }
 
