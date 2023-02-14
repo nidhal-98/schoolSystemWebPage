@@ -98,13 +98,13 @@
                             <div class="col-sm-6 mb-3">
                                 <div class="form-group">
                                     <label for="phone">Phone Number</label>
-                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="(968)-454-545-45" required>
+                                    <input type="tel" pattern="[(][+][0-9][0-9][0-9][)][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" class="form-control" id="phone" name="phone" placeholder="(+968)0000-0000" required>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3">
                                 <div class="form-group">
                                     <label for="subject1">First Subject</label>
-                                    <input type="text" class="form-control" id="subject1" name="subject1" placeholder="Math, Bio, etc" required>
+                                    <input type="text" pattern="^[A-Za-z]+$" class="form-control" id="subject1" name="subject1" placeholder="Math, Bio, etc" required>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3">
